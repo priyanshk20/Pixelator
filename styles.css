@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'VT323', monospace;
+}
+
+:root{
+    --primary-color: #F6F930;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+h1{
+    text-align:center;
+    margin-top:2rem;
+    font-size: 4rem;
+    text-shadow: white 2px 4px;
+}
+
+.btns{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-basis: 2;
+    
+}
+button{
+    margin: 0 1rem;
+    font-size: 2rem;
+    box-shadow: black 2px 4px;
+}
+.colorAndPrompt{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.btn{
+    padding:0.5rem 1.5rem;
+    margin-top: 3rem;
+    /* font-family: 'VT323', monospace; */
+}
+
+.colorAndPrompt input{
+    width: 60px;
+    margin: 0;
+    height: 20px;
+    padding:0;
+}
+
+.sliderAndValue{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+#slider{
+    -webkit-appearance: none;
+    background: black;
+    outline: none;
+    border-radius: 50px;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 25px; 
+    height: 25px; 
+    background: white; 
+    border-radius: 50px;
+}
+
+#slider::-moz-range-thumb{
+    width: 25px; 
+    height: 25px; 
+    background: white; 
+    border-radius: 50px;
+}
+
+.flex-grid{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+    background-color: white;
+}
+
+.cell{
+    background-color: white;
+    border: 1px solid black;
+}
+footer{
+    display: flex;
+    font-size: 25px;
+    bottom: 0;
+    justify-content: center;
+    align-items:center;
+    padding-top: 20px;
+    margin-top: 2rem;
+    background:black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+@media screen and (max-width:640px){
+    .btns{
+        display: flex;
+        flex-direction:column;
+    }
+}
