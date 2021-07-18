@@ -6,17 +6,17 @@
 }
 
 :root{
-    --primary-color: #F6F930;
+    --color: #EA3546;
 }
 
 body{
-    background-color: var(--primary-color);
+    background-color: var(--color);
 }
 
 h1{
     text-align:center;
     margin-top:2rem;
-    font-size: 4rem;
+    font-size: 5rem;
     text-shadow: white 2px 4px;
 }
 
@@ -32,6 +32,12 @@ button{
     font-size: 2rem;
     box-shadow: black 2px 4px;
 }
+
+button:hover{
+    box-shadow: 5px 5px black;
+    border:2px solid black;
+}
+
 .colorAndPrompt{
     display: flex;
     flex-direction:column;
@@ -43,7 +49,6 @@ button{
 .btn{
     padding:0.5rem 1.5rem;
     margin-top: 3rem;
-    /* font-family: 'VT323', monospace; */
 }
 
 .colorAndPrompt input{
@@ -51,6 +56,10 @@ button{
     margin: 0;
     height: 20px;
     padding:0;
+}
+
+.colorAndPrompt input:hover{
+    box-shadow:2px 2px black;
 }
 
 .sliderAndValue{
@@ -117,7 +126,7 @@ footer{
 }
 a{
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--color);
 }
 
 @media screen and (max-width:640px){
