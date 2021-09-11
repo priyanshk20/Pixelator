@@ -11,11 +11,17 @@
 
 ## How to run:
 
-`
-git clone https://github.com/priyanshk20/Pixelator.git
-cd Pixelator
-open index.html
-`
+Clone the project
+
+`git clone https://github.com/priyanshk20/Pixelator.git`
+
+Go to the project directory
+
+`cd Pixelator`
+
+Start/run the file
+
+`open index.html`
 
 
 ## Functionalities:
