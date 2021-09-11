@@ -9,6 +9,12 @@
 ![page](https://user-images.githubusercontent.com/52736997/126060464-70319d67-e3dc-4a5e-adc4-aee7578c33cb.PNG)
 
 
+## How to run:
+
+`
+git clone 
+`
+
 
 ## Functionalities:
 
