@@ -12,7 +12,9 @@
 ## How to run:
 
 `
-git clone 
+git clone https://github.com/priyanshk20/Pixelator.git
+cd Pixelator
+open index.html
 `
 
 
